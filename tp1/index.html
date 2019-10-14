@@ -1,39 +1,201 @@
-<!doctype html>
+!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TP1</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CV</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <style>
-          body{
-              background-color: #e9ebee;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-              font-size: 16px;
-              margin: 0 auto;
-              max-width: 800px;              
-          }
-        </style>
-        
-        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="main.js"></script>-->
-    </head>
-    <body>        
-        <h1>TP1 </h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-        <table>
+    <style>
+        body {
+            background-color: #e9ebee;
+            font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+            font-size: 16px;
+            margin: 0 auto;
+            max-width: 800px;
+
+        }
+
+        #image {
+            float: right;
+            width: 15%;
+            box-shadow: 0px;
+        }
+
+        table {
+
+            width: 800px;
+            text-align: left;
+
+        }
+
+        .metier {
+            text-align: center; .metier{}
+
+        }
+
+        #partie {
+            text-align: left;
+            font-family: arial black;
+            color: #385CA8;
+            background: #E8EFF7;
+        }
+
+        article {
+            border-top: 5px solid #688CD8;
+            border-bottom: 5px solid #688CD8;
+            margin-top: 10pt;
+            margin-bottom: 10pt;
+            padding-bottom: 20px;
+
+        }
+
+        header {
+            border-top: 5px solid #688CD8;
+            border-bottom: 5px solid #688CD8;
+            background: #E8EFF7;
+            margin-bottom: 30pt;
+            padding-bottom: 20px;
+
+        }
+    </style>
+
+    <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
+    <!--<link rel="stylesheet" href="style.css">-->
+    <!--<script src="main.js"></script>-->
+</head>
+
+<body>
+
+    <header>
+        <img src="smile.png" alt="smile" id="image" />
+        <table "witdh=800px" border="1">
             <tr>
-                <td>mon tableau</td>
+                <td>Camara Sakoba</td>
+                <td>Celibataire</td>
             </tr>
+
+            <tr>
+                <td>93 Villetaneuse</td>
+                <td>Permis B</td>
+            </tr>
+
+            <tr>
+                <td>0606060606</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>mosdef.p13@gmail.com</td>
+                <td></td>
+            </tr>
+
+
         </table>
-    </body>
+
+    </header>
+
+    <section>
+
+        <h1 class="metier">Ingénieur d'études et développement </h1>
+
+        <article>
+            <h1 id="partie"> Formation </h1>
+            <table "witdh=800px" border="1">
+                <tr>
+                    <th>2017/2018</th>
+                    <td>Licence 3 SPI </td>
+                </tr>
+
+                <tr>
+                    <th>2018/2019</th>
+                    <td>Master 1 3IR </td>
+                </tr>
+
+                <tr>
+                    <th>2019/2020</th>
+                    <td>Master 2 3ir</td>
+                </tr>
+
+            </table>
+        </article>
+
+        <article>
+            <h1 id="partie"> Compétences </h1>
+            <table "witdh=800px" border="1">
+                <tr>
+                    <th>Développement</th>
+                    <td>Java, HTML5, PHP </td>
+                </tr>
+            
+                <tr>
+                    <th>Base de données</th>
+                    <td>MySQL</td>
+                </tr>
+
+                <tr>
+                    <th>Réseaux</th>
+                    <td>LAN, WIFI, WAN</td>
+                </tr>
+
+
+            </table>
+        </article>
+
+        <article>
+            <h1 id="partie"> Expériences</h1>
+            <table "witdh=800px" border="1">
+                <tr>
+                    <th>2016 et 2018</th>
+                    <td>Stage à DSI Eiffage
+                        <img src="eiffage.jpg" alt="logo eiffage" id="image">
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>2019</th>
+                    <td> CDD Agent d'acceuil SNCF
+                        <img src="sncf.png" alt="logo sncf" id="image">
+                    </td>
+                </tr>
+
+
+            </table>
+        </article>
+
+        <article>
+            <h1 id="partie"> Centre d'interêts</h1>
+            <table "witdh=800px" border="1">
+                <tr>
+                    <th>Sport</th>
+                    <td>Football, Musculation
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Culture</th>
+                    <td> Mangas, Cinéma
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Voyages</th>
+                    <td> Angleterre, Iran, Maroc, Dubai
+                    </td>
+                </tr>
+
+
+            </table>
+        </article>
+
+    </section>
+
+</body>
+
 </html>
