@@ -1,0 +1,60 @@
+/*
+style.css
+---------
+  
+Par Sakoba camara
+
+/* Eléments principaux de la page */
+
+body {
+	background-color: #e9ebee;
+	font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 800px;
+
+}
+
+#image {
+	float: right;
+	width: 15%;
+	box-shadow: 0px;
+	
+}
+
+table {
+
+	width: 800px;
+	text-align: left;
+}
+
+.metier {
+	text-align: center; .metier{}
+
+}
+
+#partie {
+	text-align: left;
+	font-family: arial black;
+	color: #385CA8;
+	background: #E8EFF7;
+}
+
+article {
+	border-top: 5px solid #688CD8;
+	border-bottom: 5px solid #688CD8;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	padding-bottom: 20px;
+
+}
+
+header {
+	border-top: 5px solid #688CD8;
+	border-bottom: 5px solid #688CD8;
+	background: #E8EFF7;
+	margin-bottom: 30pt;
+	padding-bottom: 20px;
+
+}
+
