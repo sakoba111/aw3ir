@@ -1,9 +1,3 @@
-// var formValid = document.getElementById("button_click").value
-// formValid.addEventListener("click", validation);
-
-// var champs = document.getElementById("champs").value
-// var taille = document.getElementById("champs").value.length
-
 
 function validation() {
     var error = "";
