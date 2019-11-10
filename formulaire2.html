@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+ <!-- by Camara Sakoba -->
+<html>
+
+    <head>
+	<!-- En-tête de la page -->
+		<title>Formulaire 2</title>
+		
+        <meta charset="utf-8" />
+		  <link rel="stylesheet" type="text/css" media="screen" href="formulaire.css"/>
+		  <script type="text/javascript" src="formulaire.js"></script>
+    </head>
+ 
+    <body>
+	 <!-- Corps de la page -->
+	 <header> 
+		
+	    <h1>Saisie d'une fiche "Personne"</h1>
+		
+		<form action="destination.html.">
+		
+		<fieldset id="main"> 
+		<legend> Vos données personnelles</legend>
+		
+		<p><label for="nom" class="a">Nom</label>
+			<input type="text" name="nom" id="nom" placeholder="Votre nom"></p>
+			
+		<p><label for="prénom" class="a">Prénom</label>
+			<input type="text" name="prénom" id="prénom" placeholder="Votre prénom"></p>
+			
+		<p><label for="ddn" class="a">Date de naissance</label>
+			<input type="date" name="ddn" id="ddn"></p>
+			
+		 <fieldset>
+		 <legend> Lieu de naissance</legend>
+		 <p><label for="ssd">Seine-Saint-Denis</label>
+		 <input	type="radio" name="ldn" id="ssd">
+		 <label for="rdm">Reste du monde</label>
+		  <input type="radio" name="ldn" id="rdm">
+			</p>
+		 
+		 </fieldset> 
+		 
+		<p><label for="ap" class="a">Adresse postale</label>
+			<textarea  name="ap" id="ap" cols="30" rows="2" placeholder="Votre adresse"></textarea></p>
+			
+		<p><label for="cp" class="a">Code postale</label>
+			<input type="number" name="cp" id="cp" placeholder="93000"></p>
+			
+		<p><label for="ae" class="a">Adresse électronique</label>
+			<input type="email" name="ae" id="ae" placeholder="Votre adresse électronique"></p>
+			
+		 <p><label for="pp" class="a">Page personnelle</label>
+			<input	type="url" name="pp" id="pp" placeholder="Votre page web"></p>
+			
+		<p><label for="tel" class="a">Téléphone portable</label>
+			<input type="text" name="tel" id="tel" placeholder="0625457458"></p>
+			
+		<p><label for="semestre" class="a">Semestre</label>
+			<select name="semestre" id="semestre" size="1">
+				<option>S1</option>	
+				<option>S2</option>	
+				<option>S3</option>	
+				<option>S4</option>	
+				
+		</select>
+			</p>
+			
+		<p><label for="level">Niveau en HTML</label>
+			<input type="range" name="level" id="level" step="10"></p>
+			
+			<fieldset id="main2">
+		 <legend class="b">Connaissances</legend>
+		 <p><label for="a">HTML</label>
+		 <input	type="checkbox" name="connaissance" id="a">
+		 <label for="b">CSS</label>
+		  <input type="checkbox" name="connaissance" id="b">
+		   <label for="c">formulaires</label>
+		  <input type="checkbox" name="connaissance" id="c">
+		   <label for="d">JavaScript</label>
+		  <input type="checkbox" name="connaissance" id="d">
+			</p>
+		 
+		 </fieldset> 
+		  <p><button type="submit" role="button" aria-disabled="false">Envoyer</button></p>
+		   <a href="formulaire.html">formulaire</a>
+		 
+		</fieldset> 
+		</form>
+		</header> 
+		<footer>	
+		Formulaire réalisé dans le cadre du TP2 du cours AW
+		
+	    </footer>	
+	   
+	
+	   
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+    </body>
+	
+</html>
