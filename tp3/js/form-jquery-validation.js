@@ -4,7 +4,7 @@ $(document).ready(function () {
     console.log("DOM ready!");
 
     // Y mettre le code jQuery pour valider tous les champs du formulaire
-     
+
     var error = "";
 
     var adresse = $("#ap").val();
@@ -12,19 +12,19 @@ $(document).ready(function () {
 
     $("#valider").on("click", function (event) {
         event.preventDefault();
-        
+        error = "";
 
         champsList.forEach(function (champItem) {
             if (champItem.value.length == 0) {
              error += "Champs vide : " + document.querySelector("[for='"+champItem.id+"']").textContent + "<br/>" ;
             }
-            
-        });  
-        
-        
+
+        });
+
+
         if (error =="") {
             $(".modal-title").text("Bienvenue " + $("#prenom").val());
-            $(".modal-body").html("Vous etes nés le " + $("#ddn").val() + " et vous habitez" + 
+            $(".modal-body").html("Vous etes nés le " + $("#ddn").val() + " et vous habitez" +
             '<a href=http://maps.google.com/maps?q=' + adresse + '><img src="https://maps.googleapis.com/maps/api/staticmap?markers=' + adresse +
              '&zoom=10&size=200x200&scale=2&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg" size /> </a>');
 
