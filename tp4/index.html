@@ -17,6 +17,7 @@
 
     <script src="js/form-jquery-validation.js"></script>
     <script src="js/gps.js"></script>
+    <script src="js/store.js"></script>
 
 </head>
 
@@ -33,7 +34,7 @@
                 <div class="form-group col">
                     <input type="text" class="form-control" placeholder="" id="name">
                 </div>
-                <div class="form-group col-1">
+                <div class="form-group col-1" id="car">
                     0 car.
                 </div>
             </div>
@@ -44,7 +45,7 @@
                 <div class="form-group col">
                     <input type="text" class="form-control" placeholder="" id="firstname">
                 </div>
-                <div class="form-group col-1">
+                <div class="form-group col-1" id="car1">
                     0 car.
                 </div>
             </div>
@@ -65,7 +66,7 @@
                 <div class="form-group col">
                     <input type="text" class="form-control" placeholder="" id="adresse">
                     <div id="map">
-                        <!--  image Google Map à mettre à jour -->                            
+                        <!--  image Google Map à mettre à jour -->
                         <img alt="map" width="300" src="https://maps.googleapis.com/maps/api/staticmap?markers=latitude,longitude&zoom=14&size=400x300&scale=2&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg">
                     </div>
                 </div>
@@ -87,12 +88,12 @@
             </div>
             <div class="form-row">
                 <div class="form-group col">
-                    <button type="button" class="btn btn-primary">Ajouter</button>
+                    <button type="button" class="btn btn-primary" id="valider">Ajouter</button>
                 </div>
             </div>
         </form>
 
-        
+
 
         <hr>
         <h4>Liste des contacts</h4>
@@ -132,8 +133,6 @@
                 </tr>
             </tbody>
         </table>
-
-
 
 
         <div class="modal" tabindex="-1" role="dialog" id="myModal">
